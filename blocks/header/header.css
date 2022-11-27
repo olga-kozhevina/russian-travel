@@ -1,6 +1,4 @@
 .header {
-  max-width: 288px;
-  min-height: 42px;
   margin: 0 auto;
   padding: 16px 16px 0px;
   display: flex;
@@ -8,26 +6,14 @@
   align-items: center;
 }
 
-@media screen and (min-width: 425px) {
-  .header {
-    padding: 28px 24px 0;
-    max-width: 720px;
-    min-height: 52px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .header {
     padding: 28px 24px 0;
-    max-width: 928px;
-    min-height: 52px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header {
     padding: 28px 48px 0;
-    max-width: 1184px;
-    min-height: 52px;
   }
 }
