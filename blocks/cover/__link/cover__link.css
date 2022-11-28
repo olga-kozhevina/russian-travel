@@ -1,0 +1,12 @@
+.cover__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 18px;
+}
+
+.cover__link:hover {
+  background: rgba(42, 44, 47, 0.8);
+}
