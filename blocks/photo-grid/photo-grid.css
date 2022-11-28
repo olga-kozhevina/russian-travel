@@ -2,21 +2,23 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 12px;
-  margin: 64px 16px 0;
+  padding: 64px 16px;
 }
 
 @media screen and (min-width: 768px) {
   .photo-grid {
     gap: 16px;
-    margin: 88px 25px 0 24px;
+    padding: 88px 24px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .photo-grid {
     gap: 14px;
-    margin: 92px 48px 0px 48px;
+    padding: 92px 48px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .photo-grid {
     gap: 16px;

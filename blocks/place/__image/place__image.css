@@ -1,0 +1,33 @@
+.place__image {
+  width: 320px;
+  height: 320px;
+  margin-bottom: 29px;
+}
+
+@media screen and (min-width: 326px) {
+  .place__image {
+    padding-left: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__image {
+    width: 340px;
+    height: 340px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    width: 460px;
+    height: 460px;
+  }
+}

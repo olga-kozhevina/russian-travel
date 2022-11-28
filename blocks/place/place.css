@@ -1,0 +1,36 @@
+.place {
+  display: block;
+  gap: 32px;
+  padding-bottom: 49px;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 48px 28px;
+    align-items: start;
+    padding-bottom: 73px;
+  }
+
+  .place:nth-of-type(4) {
+    padding-bottom: 43px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    padding-bottom: 52px;
+  }
+
+  .place:nth-of-type(4) {
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    gap: 48px 38px;
+  }
+}
