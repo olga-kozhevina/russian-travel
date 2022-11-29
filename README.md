@@ -31,4 +31,4 @@
 - присутствуют файлы index.html, index.css, README.md, директории blocks и images;
 - ссылки видоизменяются при наведении.
 
-## [Ссылка на сайт проектной работы &rarr;] (https://olpom.github.io/russian-travel/)
+## [Ссылка на сайт проектной работы &rarr;](https://olpom.github.io/russian-travel/)
