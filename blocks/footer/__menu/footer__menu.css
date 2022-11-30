@@ -7,9 +7,18 @@
   padding: 0 0 47px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 612px) {
   .footer__menu {
     flex-direction: row;
+    justify-content: space-between;
+    gap: 44px;
+    padding-bottom: 0;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .footer__menu {
     gap: 18px;
     padding: 0;
   }

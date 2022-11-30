@@ -5,11 +5,12 @@
   line-height: 20px;
   text-decoration: none;
   color: #fff;
-  transition: .2s ease opacity;
+  transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 .header__lang-link:hover {
-  opacity: .5;
+  opacity: .8;
 }
 
 @media screen and (min-width: 768px) {

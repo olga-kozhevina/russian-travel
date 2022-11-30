@@ -4,13 +4,18 @@
   padding-bottom: 49px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 612px) {
   .place {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
-    gap: 48px 28px;
+    gap: 0 70px;
     align-items: start;
+  }
+}
+@media screen and (min-width: 768px) {
+  .place {
+    gap: 48px 28px;
     padding-bottom: 73px;
   }
 

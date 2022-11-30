@@ -2,11 +2,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  text-decoration: none;
+  text-decoration: underline;
   color: #fff;
-  transition: .2s ease opacity;
+  transition-property: 0.5s;
 }
 
 .place__link:hover {
-  opacity: .5;
+  opacity: .8;
 }
