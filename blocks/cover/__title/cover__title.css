@@ -3,10 +3,9 @@
   font-size: 32px;
   line-height: 35px;
   text-align: center;
-  max-width: 288px;
+  max-width: 255px;
   color: #FFF;
-  margin: 0;
-  padding: 34px 16px 0;
+  margin: 33px 0 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -14,19 +13,18 @@
     font-size: 72px;
     line-height: 76px;
     max-width: 560px;
-    padding: 115px 104px 0;
+    margin: 115px 0 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__title {
-    padding: 197px 232px 0;
+    margin: 195px 0 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__title {
-    padding: 245px 312px 0;
+    margin: 245px 0 0;
   }
 }
-

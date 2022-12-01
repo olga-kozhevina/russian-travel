@@ -1,7 +1,8 @@
 .place {
-  display: block;
-  gap: 32px;
-  padding-bottom: 49px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 612px) {
@@ -13,24 +14,21 @@
     align-items: start;
   }
 }
+
 @media screen and (min-width: 768px) {
   .place {
     gap: 48px 28px;
-    padding-bottom: 73px;
+    margin-bottom: 73px;
   }
 
-  .place:nth-of-type(4) {
-    padding-bottom: 43px;
+  .place:nth-of-type(5) {
+    margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place {
-    padding-bottom: 52px;
-  }
-
-  .place:nth-of-type(4) {
-    padding-bottom: 48px;
+    margin-bottom: 80px;
   }
 }
 

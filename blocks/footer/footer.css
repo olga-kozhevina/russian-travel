@@ -2,19 +2,29 @@
   max-width: 320px;
   margin: 0 auto;
   display: block;
-  padding: 64px 0px 24px 16px;
+  padding: 64px 0 24px 16px;
 }
 
 @media screen and (min-width: 612px) {
   .footer {
+    display: flex;
+    flex-direction: column;
     max-width: calc(100% - 48px);
     padding: 87px 24px 24px;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: calc(100% - 48px);
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .footer {
-    max-width: calc(100% - 96px);
     padding: 94px 48px 24px;
   }
 }
