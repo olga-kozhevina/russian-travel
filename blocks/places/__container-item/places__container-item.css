@@ -1,0 +1,19 @@
+.places__container-item {
+  margin-bottom: 50px;
+}
+
+.places__container-item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .places__container-item {
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__container-item {
+    margin-bottom: 80px;
+  }
+}

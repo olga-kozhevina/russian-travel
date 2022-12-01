@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   row-gap: 32px;
-  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 612px) {
@@ -18,17 +17,6 @@
 @media screen and (min-width: 768px) {
   .place {
     gap: 48px 28px;
-    margin-bottom: 73px;
-  }
-
-  .place:nth-of-type(5) {
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .place {
-    margin-bottom: 80px;
   }
 }
 

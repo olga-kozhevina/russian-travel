@@ -47,3 +47,9 @@
     padding: 0;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .cover__link {
+    max-width: 1184px;
+  }
+}
